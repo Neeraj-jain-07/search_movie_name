@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+
+        h2,
+        h4,
+        p {
+            text-align: center;
+        }
+
+        img {
+            width: 30vw;
+            height: auto;
+            margin: 9px;
+        }
+
+        .container {
+            /* border: 2px solid red; */
+            display: flex;
+            justify-content: center;
+        }
+
+        #btn {
+            padding: 6px 16px 6px 10px;
+            font-size: 16px;
+            margin: 20px auto;
+            display: block;
+        }
+
+        #btnorg {
+            padding: 5px 9px;
+            margin: 20px auto;
+            display: block;
+        }
+
+        strong {
+            display: block;
+        }
+
+        .marg {
+            margin: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Search Movie by Name </h2>
+
+    <input type="text" name="m_search" id="btn" placeholder="Search movie">
+    <input type="button" id="btnorg" value="Search">
+    <hr>
+    <h4>Movie Information</h4>
+    <div class="container">
+        <div id="movies_info">
+
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
